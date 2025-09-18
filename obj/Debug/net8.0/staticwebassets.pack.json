@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/compressed/c1y4c9e4nd.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/scopedcss/bundle/fsa-a-2025-blazor-81871.styles.css",
+      "PackagePath": "staticwebassets/fsa-a-2025-blazor-81871.styles.css"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/gersonrivera/fsa-a-2025-blazor-81871/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.fsa-a-2025-blazor-81871.props",
+      "PackagePath": "build\\fsa-a-2025-blazor-81871.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.fsa-a-2025-blazor-81871.props",
+      "PackagePath": "buildMultiTargeting\\fsa-a-2025-blazor-81871.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.fsa-a-2025-blazor-81871.props",
+      "PackagePath": "buildTransitive\\fsa-a-2025-blazor-81871.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.fsa-a-2025-blazor-81871.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

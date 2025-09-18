@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/fsa-a-2025-blazor-81871.props" />
+</Project>

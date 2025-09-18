@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "fsa-a-2025-blazor-81871",
   "resources": {
-    "hash": "sha256-ESJ56IiDEiQCxyevgrHARsZhjnRs+kog8Bxvwidw4nc=",
+    "hash": "sha256-bvt/AlD5TKCnUjgIYio46nq29+2wzDgl8/azrbnwxYE=",
     "jsModuleNative": {
       "dotnet.native.8.0.20.9tfy0zyzjt.js": "sha256-D0bzod5lwwSzPR43JC8TTCcZKw+3jIHOk8CZFCRj5is="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-8qWtIcy8fV43tlcx4DxsF45RlkcfK6588vVoxF7be2E=",
       "netstandard.wasm": "sha256-eOgz2RiO4YaPLOMIGgVLNrcfsQhmLQJzR0N7Pu2teXc=",
       "System.Private.CoreLib.wasm": "sha256-F8T63QCIbMPXPQPqTcuyBAw+oVvZSrWjy88j7fiJQZ4=",
-      "fsa-a-2025-blazor-81871.wasm": "sha256-KEuVtTZVLziD5kaIKr3HozFyrzz0xNoLZtBZ2Asf3OU="
+      "fsa-a-2025-blazor-81871.wasm": "sha256-FGGMkNUFyJR6YyYk3yqkQmwTGLp6qlaZcznxFzc2qF8="
     },
     "pdb": {
-      "fsa-a-2025-blazor-81871.pdb": "sha256-7Nc7MWDvp7FrT7x8TPw3U52WwFdsZKTqQzH0qE+Rncs="
+      "fsa-a-2025-blazor-81871.pdb": "sha256-XpHCJNafPmRy/lQtwlXtO5lahTVslKQIvHu3m7ibdew="
     }
   },
   "cacheBootResources": true,

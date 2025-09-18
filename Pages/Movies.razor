@@ -1,45 +1,54 @@
 @page "/movies"
 @using System.Globalization
-
 <h3>Movies</h3>
 
 @if (movies.Count == 0)
 {
-    <p>No movies yet.</p>
+    <p><em>Loading Movies....</em></p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+    </div>
 }
 else
 {
+
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Title</th><th>Genre</th><th>Year</th><th>Director</th><th>Rating</th>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>Director</th>
+                <th>Rating</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var m in movies)
+            @foreach (var movie in movies)
             {
                 <tr>
-                    <td>@m.Title</td>
-                    <td>@m.Genre</td>
-                    <td>@m.ReleaseYear</td>
-                    <td>@m.Director</td>
-                    <td>@m.Rating.ToString("0.0", CultureInfo.InvariantCulture)</td>
+                    <td><a class="movie-link" href="@($"/movies/{movie.Id}")">@movie.Title</a></td>
+                    <td>@movie.Genre</td>
+                    <td>@movie.ReleaseYear</td>
+                    <td>@movie.Director</td>
+                    <td>@movie.Rating.ToString("0.0", CultureInfo.InvariantCulture)</td>
                 </tr>
             }
         </tbody>
     </table>
+
 }
 
-@code {
-    private List<Movie> movies = new();
 
-    protected override void OnInitialized()
+
+
+@code {
+    List<Movie> movies = new();
+
+    protected override async Task OnInitializedAsync()
     {
-        // mock rápido (o llama a tu MovieRepository si lo tienes)
-        movies = new()
-        {
-            new() { Id = 1, Title="Inception", Genre="Sci-Fi", ReleaseYear=2010, Director="Christopher Nolan", Rating=8.8 },
-            new() { Id = 2, Title="The Matrix", Genre="Sci-Fi", ReleaseYear=1999, Director="Wachowskis", Rating=8.7 }
-        };
+
+        await Task.Delay(500);// Simulate a delay
+
+        movies = MovieRepository.GetMovies();
     }
 }

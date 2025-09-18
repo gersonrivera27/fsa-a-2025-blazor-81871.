@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fsa-a-2025-blazor-81871")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cf85a080b8c2cfb8b75bdca4d6ff8d4f88698ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4c421808a91249711157ea724fb09c9b86652d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("fsa-a-2025-blazor-81871")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fsa-a-2025-blazor-81871")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

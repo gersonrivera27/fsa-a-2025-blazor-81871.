@@ -1,0 +1,41 @@
+@page "/cars"
+@using System.Globalization
+
+<h3>Fleet of Cars</h3>
+
+@if (cars.Count == 0)
+{
+    <p>No cars available.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th><th>Make</th><th>Model</th><th>Year</th><th>Color</th><th>Mileage</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in cars)
+            {
+                <tr>
+                    <td>@car.Id</td>
+                    <td>@car.Make</td>
+                    <td>@car.Model</td>
+                    <td>@car.Year</td>
+                    <td>@car.Color</td>
+                    <td>@car.Mileage.ToString("N0", CultureInfo.InvariantCulture) km</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Car> cars = new();
+
+    protected override void OnInitialized()
+    {
+        cars = CarRepository.GetCars();
+    }
+}

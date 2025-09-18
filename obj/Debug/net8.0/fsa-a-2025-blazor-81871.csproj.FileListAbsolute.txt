@@ -1,3 +1,10 @@
+/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.csproj.AssemblyReference.cache
+/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.AssemblyInfoInputs.cache
+/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.AssemblyInfo.cs
+/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.csproj.CoreCompileInputs.cache
+/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.MvcApplicationPartsAssemblyInfo.cache
+/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.sourcelink.json
 /Users/gersonrivera/fsa-a-2025-blazor-81871/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json
 /Users/gersonrivera/fsa-a-2025-blazor-81871/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js
 /Users/gersonrivera/fsa-a-2025-blazor-81871/bin/Debug/net8.0/wwwroot/_framework/dotnet.js
@@ -609,12 +616,6 @@
 /Users/gersonrivera/fsa-a-2025-blazor-81871/bin/Debug/net8.0/icudt_CJK.dat
 /Users/gersonrivera/fsa-a-2025-blazor-81871/bin/Debug/net8.0/icudt_EFIGS.dat
 /Users/gersonrivera/fsa-a-2025-blazor-81871/bin/Debug/net8.0/icudt_no_CJK.dat
-/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.csproj.AssemblyReference.cache
-/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.GeneratedMSBuildEditorConfig.editorconfig
-/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.AssemblyInfoInputs.cache
-/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.AssemblyInfo.cs
-/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.csproj.CoreCompileInputs.cache
-/Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/fsa-a-2025-blazor-81871.MvcApplicationPartsAssemblyInfo.cache
 /Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.wasm
 /Users/gersonrivera/fsa-a-2025-blazor-81871/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm

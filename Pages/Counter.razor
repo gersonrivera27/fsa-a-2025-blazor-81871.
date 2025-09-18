@@ -11,16 +11,33 @@
     <p role="status">Your name is @myName</p>
 }
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="IncrementCount">Increment</button>
+<button class="btn btn-danger" @onclick="DecrementCount">Decrement</button>
 <button class="btn btn-primary" @onclick="SetName">Set Name</button>
 
 @code {
+    [Parameter]
+    public int IncrementAmount { get; set; } = 1;
+
+    [Parameter]
+    public int DecrementAmount { get; set; } = 1;
+
+    [Parameter]
+    public bool ShowName { get; set; } = false;
+
+
+
     private int currentCount = 0;
     private string myName = "";
 
     private void IncrementCount()
     {
-        currentCount++;
+        currentCount += IncrementAmount;
+    }
+
+    private void DecrementCount()
+    {
+        currentCount = Math.Max(0, currentCount - DecrementAmount);
     }
 
     private void SetName()
